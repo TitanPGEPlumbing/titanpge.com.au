@@ -1,0 +1,60 @@
+# Allow section
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Yandex
+User-agent: Baiduspider
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+User-agent: Googlebot-AdsBot
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: BingPreview
+User-agent: Mediapartners-Google
+User-agent: Googlebot-Snippet
+User-agent: Applebot
+User-agent: Facebot
+User-agent: Twitterbot
+User-agent: YandexBot
+User-agent: DotBot
+User-agent: SemrushBot
+User-agent: BacklinkCrawler
+User-agent: SEOKicks-Robot
+Allow: /
+
+# User-agent section
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /wp-*/
+
+# Disallow section
+User-agent: BadBot
+User-agent: MJ12bot
+User-agent: PhantomBot
+User-agent: AhrefsBot
+User-agent: BLEXBot
+User-agent: Exabot
+User-agent: BlackWidow
+User-agent: ChinaClaw
+User-agent: HTTrack
+User-agent: MSNBot
+User-agent: Slurp
+User-agent: Lycos
+User-agent: Seekbot
+User-agent: Sistrix
+User-agent: SearchmetricsBot
+User-agent: xovi
+Disallow: /
+
+# Sitemap location
+Sitemap: https://titanpge.com.au/sitemap.xml
+
+# Comments
+# - User-agent: define which robots this rule set applies to
+# - Allow: allows full access to the entire site
+# - Disallow: blocks access to specific parts of the site
+# - Sitemap: specifies the location of the sitemap file for search engines to find.
